@@ -12,7 +12,7 @@ const sugestoes = [
 
 export default function Sidebar(props) {
     return (
-        <div className="sidebar">
+        <aside className="sidebar">
             <div className="usuario">
                 <img src="imagens/catanacomics.svg" alt="" />
                 <div className="texto">
@@ -21,7 +21,7 @@ export default function Sidebar(props) {
                 </div>
             </div>
 
-            <div className="sugestoes">
+            <section className="sugestoes">
                 <div className="titulo">
                     Sugestões para você
                     <div>Ver tudo</div>
@@ -35,7 +35,7 @@ export default function Sidebar(props) {
                         </div>
                     )
                 }
-            </div>
+            </section>
 
             <div className="links">
                 Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
@@ -44,7 +44,7 @@ export default function Sidebar(props) {
             <div className="copyright">
                 © 2021 INSTAGRAM DO FACEBOOK
             </div>
-        </div>
+        </aside>
                     
     )
 }
